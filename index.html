@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<script>
+  window.Telegram.WebApp.ready()
+  Telegram.WebApp.onEvent('message', (msg) => {
+    alert(msg.text)
+  })
+</script>
